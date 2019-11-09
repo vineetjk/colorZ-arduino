@@ -15,3 +15,11 @@ git clone "https://github.com/vineetjk/colorZ.git"
     * [ArduinoJson](https://www.arduinolibraries.info/libraries/arduino-json) v5.3.0 or above
     * [ Firebase Library ](https://github.com/FirebaseExtended/firebase-arduino/releases) 
 
+### Installation
+
+Change the Fingerprint present in ``` Arduino/libraries/firebase-arduino-0.3/src/FirebaseHttpClient.h ```
+to
+```
+kFirebaseFingerprint[] =
+      "B6:F5:80:C8:B1:DA:61:C1:07:9D:80:42:D8:A9:1F:AF:9F:C8:96:7D"
+```
